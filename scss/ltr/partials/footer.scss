@@ -1,0 +1,23 @@
+footer{
+	padding: 0 20px 20px;
+	text-align: right;
+	font-family: 'SourceSansPro';
+	font-weight: 300;
+	.little_footer{
+		background: $glassyBlack;
+	    display: inline-block;
+	    white-space: nowrap;
+	    height: 50px;
+	    line-height: 50px;
+	    padding: 0 20px;
+	    color: $grey-nine;
+	    font-size: 14px;
+	    .designer{
+	    	display: inline;
+	    	padding-left: 20px;
+	    	.designer_link{
+	    		color: $mainOrange;
+	    	}
+	    }
+	}
+}

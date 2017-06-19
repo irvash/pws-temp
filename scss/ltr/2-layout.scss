@@ -1,0 +1,40 @@
+/* ------------------------------------- */
+/* ------------ layout.scss ------------ */
+/* ------------------------------------- */
+
+html{
+	height: 100%;
+}
+body{
+  margin:0;
+  padding:0;
+  height: 100%;
+  background-color: $blueBg;
+  font-family: 'SourceSansPro', 'tahoma';
+}
+main{
+  min-height: 100%;
+  width: 100%; 
+  overflow: hidden;
+  .main_container{
+    margin-top: 150px;
+  }
+}
+.container{
+  width: 1200px;
+  &.full_width{
+    width: 100%;
+  }
+  &.large{
+    width: 1000px;
+  }
+  &.medium{
+    width: 800px;
+  }
+  &.short{
+    
+  }
+}
+footer{
+
+}

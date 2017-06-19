@@ -1,0 +1,123 @@
+.home_page{
+	header .left_side .lang_links_container{
+		display: flex;
+	}
+	footer{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+	main{
+		overflow: visible;
+	}
+	.fullpage_slider_wrapper{
+		.scroll_down_wrapper{
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform:translateX(-50%);
+			z-index: 2;
+		}
+	}
+	.home_news_section{
+		// height: 100vh;
+		position: relative;	
+		.vertical_slider_wrapper{
+			width: 70vw;
+			height: 70vh;
+			margin: 0 auto;
+			position: relative;
+			.swiper-container{
+				box-shadow: 0 10px 30px black;
+				width: 100%;
+				height: 100%;
+				.swiper-slide{
+					background-repeat: no-repeat;
+					background-size: cover;
+					background-position: top center;
+					position: relative;
+					.slide_link{
+						position: absolute;
+						display: block;
+						left: 0;
+						right: 0;
+						top: 0;
+						bottom: 0;
+						.slide_title{
+							position: absolute;
+				            left: 10%;
+				            text-align: left;
+				            top: 50%;
+				            transform:translateY(-50%);
+				            font-size: 50px;
+				            line-height: 40px;
+				            color: white;
+				            text-transform: uppercase;
+				            font-family: 'SourceSansPro';
+				            font-weight: 100;
+						}
+					}
+				}
+			}
+		}
+		.swiper-pagination{
+			right: 75px;
+			width: 10px;
+			top: 50%;
+			transform:translateY(-50%);
+			padding: 20px 0;
+			background-image: url(../../../img/common/dots_pattern.png);
+			background-repeat: repeat-y;
+			background-position: center top;
+			text-align: center;
+			&:before, &:after{
+				font-size: 15px;
+				font-family: 'amirian-fi';
+				color: $white;
+				position: absolute;
+				left: 0;
+				transform:translateX(-3px);
+			}
+			&:before{
+				content: $fi-expand_less;
+				top: -20px;
+			}
+			&:after{
+				content: $fi-expand_more;
+				bottom: -20px;
+			}
+			.swiper-pagination-bullet{
+				background: $mainOrange;
+				width: 15px;
+				height: 15px;
+				line-height: 15px;
+				opacity: 1;
+				display: inline-block;
+			    position: relative;
+    			left: 50%;
+			    transform: translateX(-50%) rotate(45deg);
+			    margin: 20px 0;
+			    color: transparent;
+			    font-size: 14px;
+			    font-family: 'SourceSansPro';
+			    font-weight: bold;
+			    border-radius: 0px;
+			    // border-radius: 50px;
+			    transition: all 250ms;
+		        transform-origin: center center;
+			    &:hover{
+			    	color: white;
+			    	padding: 0 10px;
+			    }
+				&.swiper-pagination-bullet-active{
+					background: $mainOrange;
+					width: auto;
+					border-radius: 0px;
+					padding: 0 10px;
+					color: white;
+					transition: all 250ms;
+				}
+			}
+		}
+	}
+}

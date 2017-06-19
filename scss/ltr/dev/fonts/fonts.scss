@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../../../fonts/source-sans-pro/bold/SourceSansProBold.eot');
+    src: url('../../../fonts/source-sans-pro/bold/SourceSansProBold.eot?#iefix') format('embedded-opentype'),
+         url('../../../fonts/source-sans-pro/bold/SourceSansProBold.woff2') format('woff2'),
+         url('../../../fonts/source-sans-pro/bold/SourceSansProBold.woff') format('woff'),
+         url('../../../fonts/source-sans-pro/bold/SourceSansProBold.ttf') format('truetype'),
+         url('../../../fonts/source-sans-pro/bold/SourceSansProBold.svg#OpenSansBold') format('svg');
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../../../fonts/source-sans-pro/regular/SourceSansProRegular.eot');
+    src: url('../../../fonts/source-sans-pro/regular/SourceSansProRegular.eot?#iefix') format('embedded-opentype'),
+         url('../../../fonts/source-sans-pro/regular/SourceSansProRegular.woff2') format('woff2'),
+         url('../../../fonts/source-sans-pro/regular/SourceSansProRegular.woff') format('woff'),
+         url('../../../fonts/source-sans-pro/regular/SourceSansProRegular.ttf') format('truetype'),
+         url('../../../fonts/source-sans-pro/regular/SourceSansProRegular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 100;
+    font-style: normal;
+    src: url('../../../fonts/source-sans-pro/light/SourceSansProLight.eot');
+    src: url('../../../fonts/source-sans-pro/light/SourceSansProLight.eot?#iefix') format('embedded-opentype'),
+         url('../../../fonts/source-sans-pro/light/SourceSansProLight.woff2') format('woff2'),
+         url('../../../fonts/source-sans-pro/light/SourceSansProLight.woff') format('woff'),
+         url('../../../fonts/source-sans-pro/light/SourceSansProLight.ttf') format('truetype'),
+         url('../../../fonts/source-sans-pro/light/SourceSansProLight.svg#OpenSansBold') format('svg');
+}
+
+@font-face{
+  font-family: 'amirian-fi';
+  src:  url('../../../fonts/icons/amirian-fi/amirian-fi.eot');
+  src:  url('../../../fonts/icons/amirian-fi/amirian-fi.eot?#iefix') format('embedded-opentype'),
+    url('../../../fonts/icons/amirian-fi/amirian-fi.ttf') format('truetype'),
+    url('../../../fonts/icons/amirian-fi/amirian-fi.woff') format('woff'),
+    url('../../../fonts/icons/amirian-fi/amirian-fi.woff2') format('woff2'),
+    url('../../../fonts/icons/amirian-fi/amirian-fi.svg#amirian-fi') format('svg');
+}

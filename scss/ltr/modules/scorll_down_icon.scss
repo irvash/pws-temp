@@ -1,0 +1,45 @@
+.scroll_down_wrapper{
+	display: inline-block;
+	.mouse{
+		width: 16px;
+		border: solid 2px $mainOrange;
+		border-radius: 7px;
+		height: 26px;
+		text-align: center;
+		.wheel{
+			background: $mainOrange;
+			width: 6px;
+			height: 6px;
+			border-radius: 100%;
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			top: 7px;
+			animation: wheelAnimation 1.5s infinite;
+			animation-delay: 4s;
+		}
+		&:before{
+			content: '';
+			background: $mainOrange;
+			width: 1px;
+			height: 40px;
+			position: absolute;
+			bottom: 100%;
+			transform:translateY(-6px);
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+		}
+	}
+}
+@keyframes wheelAnimation {
+    from {
+    		top: 6px;
+    		opacity: 1;
+	}
+    to {
+    	top: 18px;
+		opacity: 0;
+    }
+}
